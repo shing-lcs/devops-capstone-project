@@ -1,0 +1,8 @@
+As a customer
+I need to be able to reset my password
+So that I can regain access to my account if I forget my password
+
+Given I am on the login page
+When I click on the "Forgot Password" link
+Then I should be directed to the password reset page
+And I should receive an email with instructions on how to reset my password
